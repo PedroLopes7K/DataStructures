@@ -174,6 +174,7 @@ ll.printList();
 console.log(ll.size_of_list());
  
 ll.add(20);
+console.log(ll);
 ll.add(30);
 ll.add(40);
 ll.add(50);

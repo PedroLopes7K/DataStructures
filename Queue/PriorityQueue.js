@@ -20,8 +20,8 @@ class PriorityQueue {
   
    // itera sobre o array para achar a posição correta
     for (var i = 0; i < this.items.length; i++) {
-    // NESSE MODELO 1 É A MAIOR PRIORIDADE
-        if (this.items[i].priority > qElement.priority) {
+    // NESSE MODELO O MAIOR NÚMERO É A MAIOR PRIORIDADE
+        if (this.items[i].priority < qElement.priority) {
         // quando acha a posição ele é inserido na posião i
             this.items.splice(i, 0, qElement);
             // splice pode ser usado para adicionar elementos em uma certa posição

@@ -82,4 +82,21 @@ console.log(cq.toString());
 cq.dequeue()
 cq.enqueue(6);
 console.log(cq.toString());
+cq.dequeue()
+cq.enqueue(7);
+console.log(cq.toString());
+cq.dequeue()
+cq.enqueue(8);
+console.log(cq.toString());
+cq.dequeue()
+cq.enqueue(9);
+console.log(cq.toString());
+cq.dequeue()
+cq.enqueue(10);
+console.log(cq.toString());
+cq.dequeue()
+cq.enqueue(11);
+console.log(cq.toString());
+
+
 

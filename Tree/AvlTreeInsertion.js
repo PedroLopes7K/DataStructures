@@ -68,7 +68,7 @@ class AVLTree {
     return y;
   }
 
-  // Get Balance factor of node N
+  // Pega o fato de balanceamento do nó
   getBalance(N) {
     if (N == null) return 0;
 
